@@ -1,0 +1,139 @@
+{
+  "listings": [
+    {
+      "name": "Pinnawala Grand Royale",
+      "address": "Grand royale, Pinnawala, Sri Lanka",
+      "stars": 3,
+      "img": "https://i.imgur.com/yW5toKd.jpg",
+      "description": "Three star hotel which is close to the Galle fort, Galle Light house, Galle Dutch church and Galle Fort National Museum. Air conditioned rooms with attached bathrooms Free wifi, pool, bar and free parking",
+      "tel": "0113455666",
+      "price": 4500
+    },
+    {
+      "name": "Tharu Villas",
+      "address": "42, lighthouse road, Galle Fort, Sri Lanka",
+      "stars": 3,
+      "img": "https://i.imgur.com/UcCnyQ8.jpg",
+      "description": "Three star villa which is close to the Galle fort, Galle Light house, Galle Dutch church and Galle Fort National Museum. Air conditioned rooms with attached bathroomsFree wifi, pool, bar and free parking",
+      "tel": "0113455666",
+      "price": 5000
+    },
+    {
+      "name": "Ramp Hotel",
+      "address": "Ramp Hotel: Glenfall road, Nuwara Eliya, Sri Lanka",
+      "stars": 5,
+      "img": "https://i.imgur.com/FBnfVce.jpg",
+      "description": "The hotel provides family rooms and couple rooms. Each room is equipped with an electric tea pot and a private bathroom, while some rooms are equipped with a balcony close to the Gregory Lake, Hakgala Botanical Garden, Victoria Park, Mackwoods Tea Museum",
+      "tel": "0146767856",
+      "price": 7000
+    },
+    {
+      "name": "Echo Ella Hotel",
+      "address": "Ella Wellawaya, Sri Lanka",
+      "stars": 3,
+      "img": "https://i.imgur.com/EdN3JH0.jpg",
+      "description": "All rooms in the hotel are fitted with a flat-screen TV. Echo Ella offers an outdoor heated Jacuzzi. This is our guests' favorite part of Ella, according to independent reviews.",
+      "tel": "0124678900",
+      "price": 5500
+    },
+    {
+      "name": "Residence by Uga Escapes",
+      "address": "No 20, Park Street, Colombo 02, Sri Lanka",
+      "stars": 5,
+      "img": "https://i.imgur.com/ssv00P9.jpg",
+      "description": "Each air-conditioned room here will provide you with a flat-screen satellite TV, seating area with sofa and mini-bar. There is also a coffee  machine and work desk. Featuring a shower, private bathroom comes with a hairdryer and bidet",
+      "tel": "0113434344",
+      "price": 8000
+    },
+    {
+      "name": "Pledge Scape Negombo",
+      "address": "No 5, Seneviratne Place Kudapaduwa, Negombo, Sri Lanka",
+      "stars": 5,
+      "img": "https://i.imgur.com/r2w3kkP.jpg",
+      "description": "Pledge Scape is a 5-star property located in Negombo, facing the beach. A hot tub and a car rental service are available for guests.  The hotel offers an outdoor swimming pool and a 24-hour front desk",
+      "tel": "0134567788",
+      "price": 7500
+    },
+    {
+      "name": "Sat Nam Village Eco-Hotel",
+      "address": "Sat Nam Village Eco-Hotel, Avudangawa, Sigiriya, Sri Lanka",
+      "stars": 2,
+      "img": "https://i.imgur.com/n3rbPoJ.jpg",
+      "description": "At the hotel, the rooms include a desk. Complete with a pr ivate bathroom equipped with a shower, the rooms at Sat Nam Village Eco-Hotel have a flat-screen TV and air conditioning,  and some rooms contain a seating area. All guest rooms have a closet",
+      "tel": "0145677890",
+      "price": 4000
+    },
+    {
+      "name": "Sanda Beach Hotel",
+      "address": "Muhudumawatha, Bandaramulla, Mirissa, Sri Lanka",
+      "stars": 3,
+      "img": "https://i.imgur.com/sHwLaFE.jpg",
+      "description": "Offering a terrace and views of the sea, Maison D'hotes Sanda Beach is located in the Mirissa Beach district in Mirissa,  7 minutes walking distance to Mirissa main beach and 2 mins walk from a very calm and quiet beach. Guests can enjoy the on-site restaurant.",
+      "tel": "0112346787",
+      "price": 4500
+    },
+    {
+      "name": "Radh Hotel Kandy",
+      "address": "30 Colombo Street, Kandy, Sri Lanka",
+      "stars": 4,
+      "img": "https://i.imgur.com/Mdyv031.jpg",
+      "description": "The units come with air conditioning, a flat-screen TV with satellite channels, a fridge, a kettle, a bidet, a hairdryer and a desk. All guest rooms feature a private bathroom with a shower and free toiletries.",
+      "tel": "0167889905",
+      "price": 5500
+    },
+    {
+      "name": "Jaffna Heritage",
+      "address": "195 Temple Road, Jaffna, Sri Lanka",
+      "stars": 4,
+      "img": "https://i.imgur.com/hAMYr5r.jpg",
+      "description": "A continental breakfast is available daily at the hotel.Jaffna Heritage Hotel has a playground. The area is popular for cycling,  and bike rental and car rental are available at the accommodation.Jaffna Public Library is 2.6 km from Jaffna Heritage Hotel, while Jaffna Fort is 3.4 km away.",
+      "tel": "0774564565",
+      "price": 5000
+    },
+    {
+      "name": "Aryana Boutique Hotel",
+      "address": "395/14, Bandaranayake Mawatha Stage 1, Anuradhapura, Sri Lanka",
+      "stars": 3,
+      "img": "https://i.imgur.com/dF8gWvj.jpg",
+      "description": "All guest rooms features air conditioning, a flat-screen TV with satellite channels,  a fridge, an electric tea pot, a bidet, a hairdryer and a desk. The hotel has some units that feature a balcony and pool view,  and every room includes a private bathroom and a closet",
+      "tel": "073445456",
+      "price": 6000
+    },
+    {
+      "name": "Kottawatta River Bank Resort",
+      "address": "159/2,madyama andaluwa,udawalwe udawalwe, Udawalawe, Sri Lanka ",
+      "stars": 3,
+      "img": "https://i.imgur.com/mIasbIR.jpg",
+      "description": "The rooms come with air conditioning, a flat-screen TV with satellite channels, an electric tea pot, a shower, a hairdryer and a desk.  Rooms have a private bathroom with free toiletries,  while certain rooms come with a patio and others also feature pool views. At the hotel, every room comes with a seating area.",
+      "tel": "071234567",
+      "price": 5000
+    },
+    {
+      "name": "Olinia Airport Hotel",
+      "address": " 128 18 Mile Post, Katunayaka, Sri Lanka",
+      "stars": 4,
+      "img": "https://i.imgur.com/U5cCKrJ.jpg",
+      "description": "Located in Katunayaka, Olinia Airport Hotel offers a terrace. Among the facilities of this property are a  restaurant,  a 24-hour front desk and room service, along with free WiFi throughout the property. The property provides an outdoor swimming pool,  a garden and rooms with pool views.",
+      "tel": "0112223333",
+      "price": 6000
+    },
+    {
+      "name": "Dream Cliff Mountain Resort",
+      "address": "Blackwood Kirawanagama Road Lower Blackwood, Haputale, Sri Lanka",
+      "stars": 5,
+      "img": "https://i.imgur.com/4zO5vc3.jpg",
+      "description": "All guest rooms at the hotel feature a flat-screen TV with satellite channels, DVD-Player, and a private bathroom with a bidet,  a hairdryer and free toiletries. Guest rooms will provide guests with a desk and an electric tea pot.",
+      "tel": "0145678905",
+      "price": 8000
+    },
+    {
+      "name": "The Argyle",
+      "address": "Kudaoya Estate, Hatton, Sri Lanka",
+      "stars": 4,
+      "img": "https://i.imgur.com/YfI5Ctj.jpg",
+      "description": "The Argyle has a restaurant, outdoor swimming pool, a fitness center and bar in Hatton. With free WiFi, this 4-star hotel has a shared lounge and a garden.  The property has a 24-hour front desk, room service and currency exchange for guests.",
+      "tel": "0112323278",
+      "price": 6000
+    }
+  ]
+}

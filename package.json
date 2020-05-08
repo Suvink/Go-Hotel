@@ -20,7 +20,9 @@
     "react-native-ui-xg": "0.0.6",
     "react-native-web": "~0.11.7",
     "react-navigation": "^4.3.4",
-    "react-navigation-stack": "^2.3.8"
+    "react-navigation-stack": "^2.3.8",
+    "expo-sqlite": "~8.0.0",
+    "expo-file-system": "~8.0.0"
   },
   "devDependencies": {
     "babel-preset-expo": "~8.0.0",

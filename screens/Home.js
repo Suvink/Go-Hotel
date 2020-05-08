@@ -1,25 +1,66 @@
 import React from 'react'
-import { StyleSheet, Text, View, ActivityIndicator } from 'react-native'
+import { StyleSheet, Text, View, ActivityIndicator,Alert, AsyncStorage } from 'react-native'
 import { Ionicons } from '@expo/vector-icons'
 import { SearchBar } from 'react-native-elements'
 import { Listing } from '../components/Listing'
-import { ScrollView } from 'react-native-gesture-handler'
+import { ScrollView, TouchableOpacity } from 'react-native-gesture-handler'
 import { SafeAreaView } from 'react-navigation'
 
 export default class Home extends React.Component {
     constructor(props) {
         super(props);
+        this.getData();
         this.state = { 
-          isLoading: true
+          isLoading: true,
+          loggedinuser: ''
         };
+    }
+    
+
+    getData = async() => {
+      try{
+        const value = await AsyncStorage.getItem(('loggedinuser'))
+        if(value != null){
+          this.setState({ loggedinuser : value })
+        }
+      }catch(error){
+        console.log(error)
+      }
+    }
+
+
+    logoutTrigger = () =>{
+      Alert.alert(
+        'Logout',
+        'Are you sure you want to logout?',
+        [
+          {
+            text: 'Cancel',
+            onPress: () => console.log('Cancel Pressed'),
+            style: 'cancel',
+          },
+          { text: 'Logout', onPress: () => this.logout() },
+        ],
+        { cancelable: false }
+      );
+    }
+
+    logout = () => {
+      try{
+        AsyncStorage.setItem('loginstatus', 'false')
+        AsyncStorage.setItem('loggedinuser', null)
+        this.props.navigation.navigate('Login')
+      }catch(error){
+        console.log(error)
+      }
     }
 
     async componentDidMount(){
     
-        return fetch('https://api.myjson.com/bins/1dzy4w.json')
+        return fetch('https://go-hotel-980cd.firebaseio.com/listings.json')
           .then(response => response.json())
           .then (responseJson => {
-            //console.log(responseJson.listings);
+            //console.log(responseJson);
             this.setState(
              {
               isLoading: false,
@@ -70,7 +111,9 @@ export default class Home extends React.Component {
                   color='#007cd5'
                   style={{ marginRight: 10 }}
                 />
-                <Text>Welcome Suvin!</Text>
+                <TouchableOpacity onPress={() => this.logoutTrigger()}>
+                  <Text>{this.state.loggedinuser}</Text>
+                </TouchableOpacity>
               </View>
             </View>
           </View>
@@ -88,7 +131,7 @@ export default class Home extends React.Component {
             
             <SafeAreaView>
                 <ScrollView height={500}>
-                    {this.state.dataSource.listings.map((item, key) => (
+                    {this.state.dataSource.map((item, key) => (
                                 //key is the index of the array 
                                 // //item is the single item of the array
                                 // <View key={key} style={styles.item}>
@@ -96,6 +139,7 @@ export default class Home extends React.Component {
                                 // <View style={styles.separator} />
                                 // </View>
                                 <Listing
+                                    key = {key}
                                     navigation={this.props.navigation}
                                     img= {item.img}
                                     name={item.name}
